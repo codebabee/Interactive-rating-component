@@ -1,0 +1,73 @@
+@media(max-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: black;
+        
+    }
+    main {
+        width: 18em;
+        display: flex;
+        flex-wrap: wrap;
+        height: 34em;
+        padding: 2rem;
+        margin: auto;
+        margin-top: 10em;
+        border-radius: 15px;
+        background-image: linear-gradient(180deg, hsl(213, 19%, 18%), hsl(216, 12%, 8%) );
+    }
+   picture img {
+    background-color:hsl(213, 19%, 18%);
+    border: 1px none hsl(217, 12%, 63%);
+    padding: 1em;
+    border-radius: 50%;
+   } 
+   h1 {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+   }
+   p {
+    color: hsl(217, 12%, 63%);
+    line-height: 18px;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    text-align: justify;
+   }
+   div {
+    margin-top: 1.6rem;
+   }
+   div button {
+    background-color:hsl(213, 19%, 18%);
+    border: 1px none hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+    margin: 0.2rem;
+    border-radius: 50%;
+    transition-duration: 1s;
+   }
+   div button:hover {
+    background-color:rgb(255, 123, 0);
+    
+}
+   div button:focus {
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+   }
+   button[type="submit"] {
+    margin-top: 2rem;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    padding: 0.8rem;
+    width: 21rem;
+    border-radius: 40px;
+   }
+   button[type="submit"]:hover {
+    color: rgb(255, 123, 0);
+    background-color: hsl(217, 12%, 63%);
+    
+   }
+}
